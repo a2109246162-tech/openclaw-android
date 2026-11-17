@@ -1,0 +1,9 @@
+-dontwarn **
+-dontoptimize
+-keepattributes Signature,InnerClasses,EnclosingMethod
+-keep class com.openclaw.android.** { *; }
+-keep class com.google.zxing.qrcode.QRCodeWriter { *; }
+-keep class com.google.zxing.qrcode.QRCodeReader { *; }
+-keep class com.google.zxing.qrcode.decoder.ErrorCorrectionLevel { *; }
+-keep class com.google.zxing.EncodeHintType { *; }
+-keep class com.google.zxing.BarcodeFormat { *; }
